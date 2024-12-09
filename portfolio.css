@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 400;
+    padding: 400;
+    background-color: #f4f4f9;
+    color: #090909;
+}
+
+header {
+    background-color: #060606;
+    color: white;
+    text-align: center;
+    padding: 170px 0;
+}
+
+header .profile-pic {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 1220;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #2f4d55;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list div {
+    background: #e1bee7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #29272c;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #1c2a1e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9900;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
